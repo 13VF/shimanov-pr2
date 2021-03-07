@@ -114,13 +114,46 @@
           </div>
         </div>
       </div>
-
-        <!-- <img class="slideImage" src="./static/11-previewpic.jpg" alt=""> -->
       </div>
     </div>
     <div class="slide slide-12">
       <div class="slideContent">
-        <img class="slideImage" src="./static/12-pic.jpg" alt="">
+        <div class="wrapper12">
+          <div class="wrapper12__upper">
+            <a href="#" target="_blank" class="wrapper12__upperButton">
+              <img src="./static/button-otf.png" alt="">
+            </a>
+            <a href="#" target="_blank" class="wrapper12__upperButton">
+              <img src="./static/button-ttf.png" alt="">
+            </a>
+          </div>
+          <div class="wrapper12__bottom">
+            <div class="bottomFormWrapper">
+              <form class="bottomForm" method="POST" target="_blank" action="https://yoomoney.ru/quickpay/confirm.xml">
+                <input type="hidden" name="receiver" value="СЮДАСВОЙКОШЕЛЕК">
+                <input type="hidden" name="formcomment" value="Автору шрифта на кофе">
+                <input type="hidden" name="label" value="$order_id">
+                <input type="hidden" name="quickpay-form" value="donate">
+                <input type="hidden" name="targets" value="транзакция {order_id}">
+                <input type="hidden" name="need-fio" value="false">
+                <input type="hidden" name="need-email" value="false">
+                <input type="hidden" name="need-phone" value="false">
+                <input type="hidden" name="need-address" value="false">
+                <label class="bottomForm__title" for="sum">Автору на кофе</label>
+                <input class="bottomForm__input" id="sum" name="sum" value="" data-type="number" placeholder="₽">
+                <input class="bottomForm__submit" type="submit" value="Подарить">
+              </form>
+            </div>
+            <a href="#" class="wrapper12__bottomPayPal">
+              <img src="./static/paypal.png" alt="">
+              <div class="bottomPayPal__text">PayPalMe</div>
+            </a>
+            <div class="wrapper12__bottomLinks">
+              <a href="#" class="bottomLinks__link">История создания</a>
+              <a href="#" class="bottomLinks__link">Другие проекты для НН</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
