@@ -1,0 +1,132 @@
+@import './normalize.css';
+@import './splide.min.css';
+
+.mainWrapper {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideContent {
+  position: relative;
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideImage {
+  width: 100%;
+  object-fit: contain;
+}
+
+.slide-1 {
+  background: url('../static/1-bg.jpg');
+}
+
+.slide-2 {
+  background: #efd1ad;
+}
+
+.slide-3 {
+  background: #f2d9ba;
+}
+
+.slide-4 {
+  background: url('../static/4-bg.jpg');
+}
+
+.slide-5 {
+  padding: 32px;
+  background: url('../static/1-bg.jpg');
+}
+
+.slide-6 {
+  background: #e9eef2;
+}
+
+.slide-7 {
+  background: url('../static/7-bg.jpg');
+}
+
+.slide-9 {
+  background: #edecea;
+}
+
+.slide-10 {
+  background: #0060c6;
+}
+
+.slide-11 {
+  background: url('../static/1-bg.jpg');
+}
+
+.slide-12 {
+  background: url('../static/1-bg.jpg');
+}
+
+
+/* COMMON SLIDER STYLES */
+.my-class-arrow {
+  opacity: 1;
+  background: none;
+  fill: #fefefe;
+  width: 40px;
+  height: 40px;
+}
+
+.my-class-arrow svg {
+  width: 60px;
+  height: 60px;
+}
+
+.slideContent.slideContent--slider {
+  display: block;
+}
+
+/* SLIDER 1 */
+.slideContent.slideContent--slider.slideContent--slider1 .splide {
+  height: 650px;
+}
+
+.slideContent--slider1 {
+  max-width: 1400px;
+}
+
+.slideContent.slideContent--slider.slideContent--slider1 .splide__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideContent.slideContent--slider.slideContent--slider1 .splide__slide img {
+	height: auto;
+}
+
+/* SLIDER 2 */
+.slideContent.slideContent--slider.slideContent--slider2 .splide {
+  height: 550px;
+}
+
+.slideContent--slider2 {
+  max-width: 1400px;
+}
+
+.slideContent.slideContent--slider.slideContent--slider2 .splide__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideContent.slideContent--slider.slideContent--slider2 .splide__slide img {
+  max-width: 550px;
+  max-height: 550px;
+	width : 100%;
+	height: auto;
+}
