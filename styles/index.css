@@ -132,6 +132,10 @@
   margin-top: 350px;
 }
 
+.wrapper12__upperImage {
+  display: none;
+}
+
 .wrapper12__upperButton {
   margin-right: 50px;
 }
@@ -238,6 +242,11 @@
   .wrapper12__upper {
     flex-direction: column;
     margin-top: 42px;
+  }
+
+  .wrapper12__upperImage {
+    display: block;
+    margin-bottom: 32px;
   }
 
   .wrapper12__upperButton {
